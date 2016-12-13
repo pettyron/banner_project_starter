@@ -1,0 +1,41 @@
+# Gitignore File #
+##################
+
+# Find Further Global Ignore configurations at https://github.com/github/gitignore/tree/master/Global
+
+# Find other useful Git Ignore templates at https://github.com/github/gitignore
+
+# Dependencies #
+######################
+**/node_modules/*
+**/bower_components/*
+**/src/vendor/*
+npm-debug.log
+
+# SASS #
+########
+.sass-cache
+*.css.map
+*.map
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Linux Generated Files #
+#########################
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Vagrant Environment #
+#######################
+.vagrant/
